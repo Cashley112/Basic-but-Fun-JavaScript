@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad Jokes</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        #top {
+            background-color: #ffe8d6;
+        }
+    </style>
+</head>
+<body>
+    <section id="top" class="section">
+        <h1 class="title">Click to get new jokes!</h1>
+        <div class="columns">
+            <div class="column">
+                <button class="button is-primary is-light">Click me!</button>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="columns">
+            <div class="column content">
+                <ul id="jokes"></ul>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
